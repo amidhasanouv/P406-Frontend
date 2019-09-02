@@ -2,14 +2,12 @@
 	
 	"use strict";
 
-	// Header Scrolling Set White Background
 	scrollNavBar();
 
-	// Window Resize Mobile Menu Fix
+	// Mobile Menu created
 	mobileNav();
 
 
-	// Scroll animation init
 	window.sr = new scrollReveal();
 	
 
@@ -81,7 +79,7 @@
 
 
 	// Page standard gallery
-	if($('.page-gallery').length && $('.page-gallery-wrapper').length){
+	if($('.page-gallery').length && $('.image-list-containers').length){
 		$('.page-gallery').imgfix({
 			scale: 1.1
 		});
